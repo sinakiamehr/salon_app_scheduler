@@ -34,16 +34,16 @@ This is a command-line-based **Salon Appointment Scheduler** project built for t
 ### 🐘 Create the Database
 
 1. Connect to PostgreSQL:
-   ```bash
-   psql --username=freecodecamp --dbname=postgres
+      ```bash
+      psql --username=freecodecamp --dbname=postgres
 
 2.	Create the salon database:
-   ```bash 
-   CREATE DATABASE salon;
-   \c salon
+      ```bash 
+      CREATE DATABASE salon;
+      \c salon
 
 3. Create the required tables (you can also run the SQL dump):
-   ```bash 
-   CREATE DATABASE salon;
-   \c salon
+      ```bash 
+      CREATE DATABASE salon;
+      \c salon
 
