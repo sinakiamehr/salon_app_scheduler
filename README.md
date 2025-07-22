@@ -44,6 +44,5 @@ This is a command-line-based **Salon Appointment Scheduler** project built for t
 
 3. Create the required tables (you can also run the SQL dump):
       ```bash 
-      CREATE DATABASE salon;
-      \c salon
+      psql -U freecodecamp < salon.sql
 
